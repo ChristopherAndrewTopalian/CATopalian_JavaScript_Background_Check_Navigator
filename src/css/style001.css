@@ -1,0 +1,66 @@
+/* style001.css */
+
+body
+{
+    background-color: rgb(0, 0, 0);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.gridContainerStyle
+{
+    display: grid;
+    /*grid-template-columns: auto auto auto;*/
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(40, 40, 40);
+    gap: 15px;
+}
+
+.gridItemStyle
+{
+    width: 100%;
+    height: 375px;
+    display: block;
+    box-sizing: border-box;
+    border: solid 1px rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+.gridItemStyle:hover
+{
+    border-color: rgb(0, 255, 255);
+}
+
+.theTitleStyle
+{
+    padding-bottom: 7px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.nameOfPersonStyle
+{
+    position: relative;
+    left: 22px;
+    top: -43px;
+    z-index: 10;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+}
+
+/*----*/
+
+/* Dedicated to God the Father */
+/* All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025 */
+/* https://github.com/ChristopherTopalian */
+/* https://github.com/ChristopherAndrewTopalian */
+/* https://sites.google.com/view/CollegeOfScripting */
+
