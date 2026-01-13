@@ -6,9 +6,12 @@ function makeInterface(whichArray)
     theTitle.textContent = "CATopalian JavaScript Background Check Navigator";
     theTitle.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Background_Check_Navigator';
     theTitle.style.position = 'absolute';
-    theTitle.style.right = 8 + 'px';
+    theTitle.style.left = 8 + 'px';
     theTitle.style.top = 2 + 'px';
+    theTitle.style.fontFamily = 'Arial';
     theTitle.style.fontSize = 17 + 'px';
+    theTitle.style.fontWeight = 'bold';
+    theTitle.style.color = 'rgb(140, 140, 140)';
     ba(theTitle);
 
     //-//
@@ -18,7 +21,7 @@ function makeInterface(whichArray)
     //-//
 
     let mainDiv = ce("div");
-    mainDiv.style.width = '900px';
+    mainDiv.style.width = '100%';
     mainDiv.className = "gridContainerStyle";
     ba(mainDiv);
 
@@ -52,7 +55,7 @@ function makeInterface(whichArray)
 //----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting
